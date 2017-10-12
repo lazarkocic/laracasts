@@ -5,6 +5,11 @@
 
   <div class="col-sm-8 blog-main">
 
+    <!-- <div id="app">
+      <p>@{{ name }}</p>
+      <p>Static</p>
+    </div> -->
+
 
     @include ('posts.post')
 
