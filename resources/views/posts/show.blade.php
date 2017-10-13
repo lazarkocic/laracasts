@@ -26,11 +26,23 @@
 
             </div>
           </div> -->
-
-
         @endforeach
       </ul>
     </div>
+
+    <hr>
+
+    <form action="/posts/{{ $post->id }}/comments" method="POST">
+      {{ csrf_field() }}
+      <div class="form-group">
+        <textarea name="body" class="form-control" placeholder="Write something..." required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-info">Add comment</button>
+      </div>
+    </form>
+
+    @include ('layouts.errors')
 
   </div><!-- /.blog-main -->
 
