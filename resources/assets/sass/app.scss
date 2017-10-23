@@ -9,7 +9,24 @@
 // @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 body {
-  background-color: pink;
+  background-color: #fff7d6;
+}
+
+.badge {
+  background-color: #b6bac1;
+}
+
+#flash-message {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  z-index: 10;
+  animation: flash-message 8s forwards;
+}
+
+@keyframes flash-message {
+    0%   {opacity: 1;}
+    100% {opacity: 0; display:none;}
 }
 
 /*

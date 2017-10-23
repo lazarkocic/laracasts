@@ -3,7 +3,7 @@
 
     <h2 class="blog-post-title"><a href="posts/{{ $post->id }}">{{ $post->title }}</a></h2>
 
-    <p class="blog-post-meta">{{ $post->created_at->diffForHumans() }}</p>
+    <p class="blog-post-meta">{{ $post->created_at->diffForHumans() }} - {{ $post->user->name }} </span></p>
 
     <p>{{ $post->body }}</p>
 

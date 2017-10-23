@@ -2,7 +2,6 @@
 
 @section ('content')
 
-  <div class="col-sm-8">
 
     <h1>Registration</h1>
 
@@ -39,6 +38,5 @@
     </form>
 
 
-  </div>
 
 @endsection

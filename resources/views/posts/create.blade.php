@@ -2,7 +2,6 @@
 
 @section ('content')
 
-  <div class="col-sm-8 blog-main">
     <h1>Publish a post</h1>
     <hr>
     <form method="POST" action="/posts">
@@ -20,7 +19,6 @@
     </form>
     <br>
     @include ('layouts.errors')
-  </div>
 
 
 @endsection
